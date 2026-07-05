@@ -1,9 +1,8 @@
 {
-  "updated_at": "2026-07-05T22:08:36.707830Z",
+  "updated_at": "2026-07-05T22:19:47.680761Z",
   "theme": {
     "title": "Rotation: Growth \u2192 Value & Defensives",
-    "line": "Health Care and Utilities led while Technology and Consumer Discretionary lagged.",
-    "subline": "Volatility was little changed, consistent with normal day-to-day positioning."
+    "summary": "Health Care (+2.68%) and Utilities (+2.19%) led the market today, while Technology (-2.70%) and Consumer Discretionary (-0.56%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -1.09% versus +2.28% for defensives and +1.03% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. That shows up at the index level too: the blue-chip Dow gained +1.14% while the tech-heavy Nasdaq fell -0.80%, a wide enough gap to matter. Small caps underperformed as well, with the Russell 2000 at -0.55%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX fell 2.04% to 15.81, which reads as an orderly rotation rather than panic-driven selling. Gold added 0.07% to $4,191.30, crude oil was little changed at $68.51, and bitcoin gained 0.42% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -92,18 +91,18 @@
     },
     {
       "label": "Gold (oz)",
-      "value": "$4,187.30",
-      "pct": 2.57
+      "value": "$4,191.30",
+      "pct": 0.07
     },
     {
       "label": "WTI Crude",
-      "value": "$68.78",
-      "pct": 1.58
+      "value": "$68.51",
+      "pct": -0.72
     },
     {
       "label": "Bitcoin",
-      "value": "$62,970.78",
-      "pct": -0.18
+      "value": "$63,345.93",
+      "pct": 0.42
     }
   ]
 }
