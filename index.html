@@ -69,17 +69,10 @@
     letter-spacing: -0.01em;
   }
   .theme-line{
-    font-size: 14.5px;
-    color: var(--text);
-    max-width: 560px;
-    line-height: 1.5;
-    margin: 0 0 4px;
-  }
-  .theme-sub{
-    font-size: 12.5px;
+    font-size: 14px;
     color: var(--muted);
-    max-width: 560px;
-    line-height: 1.5;
+    max-width: 660px;
+    line-height: 1.6;
     margin: 0;
   }
   .asof{
@@ -251,8 +244,7 @@
     <div class="header-left">
       <p class="eyebrow"><span class="live-dot" id="live-dot"></span><span id="live-label">Market Snapshot</span></p>
       <h1 id="theme-title">Loading…</h1>
-      <p class="theme-line" id="theme-line"></p>
-      <p class="theme-sub" id="theme-sub"></p>
+      <p class="theme-line" id="theme-summary"></p>
     </div>
     <div class="asof">
       <strong>AS OF</strong>
@@ -291,8 +283,7 @@
     updated_at: "2026-07-02T20:15:00Z",
     theme: {
       title: "Rotation: Growth → Value & Defensives",
-      line: "Health Care and Utilities led while Technology and Consumer Discretionary lagged.",
-      subline: "Volatility fell sharply — consistent with rotation or improving risk appetite, not a selloff."
+      summary: "Health Care (+2.63%) and Utilities (+2.21%) led the market today, while Technology (-2.71%) and Consumer Discretionary (-0.82%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -1.22% versus +2.29% for defensives and +1.14% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. That shows up at the index level too: the blue-chip Dow gained +1.14% while the tech-heavy Nasdaq fell -0.80%, a wide enough gap to matter. Small caps underperformed as well, with the Russell 2000 at -0.55%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX fell 2.11% to 15.81, which reads as an orderly rotation rather than panic-driven selling. Gold added 1.49% to $4,187.30, crude oil was little changed at $68.78, and bitcoin slipped 0.08% — cross-asset moves weren't all pointing the same direction as equities."
     },
     indices: [
       { label: "S&P 500", value: "7,483.24", pct: 0.00 },
@@ -364,8 +355,7 @@
 
   function render(data, isLive){
     document.getElementById('theme-title').textContent = data.theme.title;
-    document.getElementById('theme-line').textContent = data.theme.line;
-    document.getElementById('theme-sub').textContent = data.theme.subline;
+    document.getElementById('theme-summary').textContent = data.theme.summary;
 
     const d = new Date(data.updated_at);
     const formatted = isNaN(d) ? data.updated_at : d.toLocaleString(undefined, {
