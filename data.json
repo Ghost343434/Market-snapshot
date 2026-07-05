@@ -1,0 +1,33 @@
+{
+  "updated_at": "2026-07-02T20:15:00Z",
+  "theme": {
+    "title": "Rotation: Growth → Value & Defensives",
+    "line": "Health Care and Utilities led while Technology and Consumer Discretionary lagged.",
+    "subline": "Volatility fell sharply — consistent with rotation or improving risk appetite, not a selloff."
+  },
+  "indices": [
+    { "label": "S&P 500", "value": "7,483.24", "pct": 0.00 },
+    { "label": "Dow 30", "value": "52,900.07", "pct": 1.14 },
+    { "label": "Nasdaq Comp", "value": "25,832.67", "pct": -0.80 },
+    { "label": "Russell 2000", "value": "2,996.11", "pct": -0.55 }
+  ],
+  "sectors": [
+    { "ticker": "XLV", "name": "Health Care", "pct": 2.63 },
+    { "ticker": "XLU", "name": "Utilities", "pct": 2.21 },
+    { "ticker": "XLP", "name": "Consumer Staples", "pct": 2.03 },
+    { "ticker": "XLB", "name": "Materials", "pct": 1.94 },
+    { "ticker": "XLF", "name": "Financials", "pct": 1.53 },
+    { "ticker": "XLRE", "name": "Real Estate", "pct": 1.13 },
+    { "ticker": "XLE", "name": "Energy", "pct": 0.78 },
+    { "ticker": "XLI", "name": "Industrials", "pct": 0.30 },
+    { "ticker": "XLC", "name": "Communication Svcs", "pct": -0.13 },
+    { "ticker": "XLY", "name": "Consumer Discretionary", "pct": -0.82 },
+    { "ticker": "XLK", "name": "Technology", "pct": -2.71 }
+  ],
+  "macro": [
+    { "label": "VIX", "value": "15.81", "pct": -2.11 },
+    { "label": "Gold (oz)", "value": "$4,187.30", "pct": 1.49 },
+    { "label": "WTI Crude", "value": "$68.78", "pct": 0.13 },
+    { "label": "Bitcoin", "value": "$62,554.84", "pct": -0.08 }
+  ]
+}

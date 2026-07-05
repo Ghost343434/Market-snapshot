@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Snapshot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0A0D12;
+    --panel: #12161D;
+    --panel-2: #171C25;
+    --border: #232A38;
+    --text: #E8EAF0;
+    --muted: #838CA0;
+    --dim: #4B5266;
+    --amber: #E8A33D;
+    --pos: #34D399;
+    --pos-dim: rgba(52,211,153,0.14);
+    --neg: #FB7185;
+    --neg-dim: rgba(251,113,133,0.14);
+  }
+  *{ box-sizing: border-box; }
+  html,body{
+    margin:0; padding:0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mono{ font-family: 'JetBrains Mono', monospace; }
+
+  .dashboard{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 28px 20px 40px;
+  }
+
+  .header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap: 16px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 18px;
+    margin-bottom: 22px;
+  }
+  .header-left .eyebrow{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    color: var(--amber);
+    text-transform: uppercase;
+    margin: 0 0 6px;
+    display:flex; align-items:center; gap:8px;
+  }
+  .live-dot{
+    width:6px; height:6px; border-radius:50%;
+    background: var(--pos);
+    display:inline-block;
+  }
+  .live-dot.offline{ background: var(--dim); }
+  .header-left h1{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    letter-spacing: -0.01em;
+  }
+  .theme-line{
+    font-size: 14.5px;
+    color: var(--text);
+    max-width: 560px;
+    line-height: 1.5;
+    margin: 0 0 4px;
+  }
+  .theme-sub{
+    font-size: 12.5px;
+    color: var(--muted);
+    max-width: 560px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .asof{
+    text-align:right;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--dim);
+    white-space: nowrap;
+    padding-top: 4px;
+  }
+  .asof strong{ color: var(--muted); display:block; margin-bottom:3px; font-size:11px;}
+
+  .section-title{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .section-title::before{
+    content:"";
+    width:6px; height:6px;
+    background: var(--amber);
+    display:inline-block;
+    transform: rotate(45deg);
+  }
+
+  .card-grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 26px;
+  }
+  .card{
+    background: var(--panel);
+    border: 1px solid var(--border);
+    padding: 14px 14px 12px;
+    transition: border-color .15s ease, background .15s ease;
+  }
+  .card:hover{ border-color:#333c4d; background: var(--panel-2); }
+  .card .label{
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: .04em;
+    margin-bottom: 8px;
+  }
+  .card .value{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .card .delta{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    font-weight: 500;
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+  }
+  .up{ color: var(--pos); }
+  .down{ color: var(--neg); }
+  .flat{ color: var(--muted); }
+
+  .sector-panel{
+    background: var(--panel);
+    border: 1px solid var(--border);
+    padding: 18px 18px 8px;
+    margin-bottom: 26px;
+  }
+  .sector-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 14px;
+  }
+  .legend{
+    display:flex;
+    gap:14px;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--muted);
+  }
+  .legend span{ display:flex; align-items:center; gap:5px; }
+  .dot{ width:7px; height:7px; border-radius:50%; display:inline-block; }
+
+  .sector-row{
+    display:grid;
+    grid-template-columns: 150px 1fr 60px;
+    align-items:center;
+    gap: 10px;
+    padding: 7px 0;
+    border-top: 1px solid #191E28;
+  }
+  .sector-row:first-child{ border-top:none; }
+  .sector-label{
+    font-size: 12.5px;
+    line-height:1.25;
+  }
+  .sector-label .ticker{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 11.5px;
+    color: var(--amber);
+    margin-right: 6px;
+  }
+  .sector-label .name{ color: var(--muted); }
+
+  .track{
+    position: relative;
+    height: 16px;
+    background: #0D1117;
+  }
+  .track .center-line{
+    position:absolute;
+    left:50%; top:0; bottom:0;
+    width:1px;
+    background: var(--border);
+  }
+  .track .fill{
+    position:absolute;
+    top:1px; bottom:1px;
+    width:0%;
+    transition: width 900ms cubic-bezier(.16,.84,.44,1);
+  }
+  .track .fill.pos{ left:50%; background: linear-gradient(90deg, var(--pos-dim), var(--pos)); }
+  .track .fill.neg{ right:50%; background: linear-gradient(270deg, var(--neg-dim), var(--neg)); }
+
+  .sector-value{
+    font-family:'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    font-weight: 600;
+    text-align:right;
+  }
+
+  .footer{
+    display:flex;
+    justify-content:space-between;
+    gap: 16px;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--dim);
+    border-top: 1px solid var(--border);
+    padding-top: 14px;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 720px){
+    .card-grid{ grid-template-columns: repeat(2, 1fr); }
+    .header{ flex-direction: column; }
+    .asof{ text-align:left; }
+    .sector-row{ grid-template-columns: 110px 1fr 54px; }
+    .sector-label .name{ display:block; font-size:10.5px; }
+    .footer{ flex-direction: column; gap: 4px; }
+  }
+  @media (max-width: 420px){
+    .card-grid{ grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="dashboard">
+
+  <div class="header">
+    <div class="header-left">
+      <p class="eyebrow"><span class="live-dot" id="live-dot"></span><span id="live-label">Market Snapshot</span></p>
+      <h1 id="theme-title">Loading…</h1>
+      <p class="theme-line" id="theme-line"></p>
+      <p class="theme-sub" id="theme-sub"></p>
+    </div>
+    <div class="asof">
+      <strong>AS OF</strong>
+      <span id="asof-time">—</span>
+    </div>
+  </div>
+
+  <p class="section-title">Major Indices</p>
+  <div class="card-grid" id="indices-grid"></div>
+
+  <div class="sector-panel">
+    <div class="sector-header">
+      <p class="section-title" style="margin:0;">Sector Relative Strength</p>
+      <div class="legend">
+        <span><i class="dot" style="background:var(--pos)"></i>Leading</span>
+        <span><i class="dot" style="background:var(--neg)"></i>Lagging</span>
+      </div>
+    </div>
+    <div id="sector-rows"></div>
+  </div>
+
+  <p class="section-title">Macro &amp; Cross-Asset</p>
+  <div class="card-grid" id="macro-grid"></div>
+
+  <div class="footer">
+    <div id="footer-note">Data refreshes automatically each weekday morning &amp; evening.</div>
+    <div>Data: index &amp; sector ETF closes</div>
+  </div>
+
+</div>
+
+<script>
+  // Fallback data — used only if data.json can't be fetched (e.g. this
+  // page opened standalone rather than served alongside data.json).
+  const FALLBACK = {
+    updated_at: "2026-07-02T20:15:00Z",
+    theme: {
+      title: "Rotation: Growth → Value & Defensives",
+      line: "Health Care and Utilities led while Technology and Consumer Discretionary lagged.",
+      subline: "Volatility fell sharply — consistent with rotation or improving risk appetite, not a selloff."
+    },
+    indices: [
+      { label: "S&P 500", value: "7,483.24", pct: 0.00 },
+      { label: "Dow 30", value: "52,900.07", pct: 1.14 },
+      { label: "Nasdaq Comp", value: "25,832.67", pct: -0.80 },
+      { label: "Russell 2000", value: "2,996.11", pct: -0.55 }
+    ],
+    sectors: [
+      { ticker: "XLV", name: "Health Care", pct: 2.63 },
+      { ticker: "XLU", name: "Utilities", pct: 2.21 },
+      { ticker: "XLP", name: "Consumer Staples", pct: 2.03 },
+      { ticker: "XLB", name: "Materials", pct: 1.94 },
+      { ticker: "XLF", name: "Financials", pct: 1.53 },
+      { ticker: "XLRE", name: "Real Estate", pct: 1.13 },
+      { ticker: "XLE", name: "Energy", pct: 0.78 },
+      { ticker: "XLI", name: "Industrials", pct: 0.30 },
+      { ticker: "XLC", name: "Communication Svcs", pct: -0.13 },
+      { ticker: "XLY", name: "Consumer Discretionary", pct: -0.82 },
+      { ticker: "XLK", name: "Technology", pct: -2.71 }
+    ],
+    macro: [
+      { label: "VIX", value: "15.81", pct: -2.11 },
+      { label: "Gold (oz)", value: "$4,187.30", pct: 1.49 },
+      { label: "WTI Crude", value: "$68.78", pct: 0.13 },
+      { label: "Bitcoin", value: "$62,554.84", pct: -0.08 }
+    ]
+  };
+
+  function fmtPct(p){
+    const sign = p > 0 ? '+' : '';
+    return `${sign}${p.toFixed(2)}%`;
+  }
+  function arrow(p){ return p > 0 ? '▲' : (p < 0 ? '▼' : '•'); }
+  function trendClass(p){ return p > 0 ? 'up' : (p < 0 ? 'down' : 'flat'); }
+
+  function renderCards(containerId, items){
+    const el = document.getElementById(containerId);
+    el.innerHTML = items.map(it => `
+        <div class="card">
+          <div class="label">${it.label}</div>
+          <div class="value mono">${it.value}</div>
+          <div class="delta ${trendClass(it.pct)}">${arrow(it.pct)} ${fmtPct(it.pct)}</div>
+        </div>`).join('');
+  }
+
+  function renderSectors(sectors){
+    const maxAbs = Math.max(...sectors.map(s => Math.abs(s.pct)), 0.5);
+    const scaleMax = maxAbs * 1.18;
+    const rowsEl = document.getElementById('sector-rows');
+    rowsEl.innerHTML = sectors.map(s => {
+      const isPos = s.pct >= 0;
+      return `
+        <div class="sector-row">
+          <div class="sector-label"><span class="ticker">${s.ticker}</span><span class="name">${s.name}</span></div>
+          <div class="track">
+            <div class="center-line"></div>
+            <div class="fill ${isPos ? 'pos' : 'neg'}" data-width="${(Math.abs(s.pct)/scaleMax*50).toFixed(2)}"></div>
+          </div>
+          <div class="sector-value ${trendClass(s.pct)}">${fmtPct(s.pct)}</div>
+        </div>`;
+    }).join('');
+
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      document.querySelectorAll('.fill').forEach(f => {
+        f.style.width = f.getAttribute('data-width') + '%';
+      });
+    }));
+  }
+
+  function render(data, isLive){
+    document.getElementById('theme-title').textContent = data.theme.title;
+    document.getElementById('theme-line').textContent = data.theme.line;
+    document.getElementById('theme-sub').textContent = data.theme.subline;
+
+    const d = new Date(data.updated_at);
+    const formatted = isNaN(d) ? data.updated_at : d.toLocaleString(undefined, {
+      weekday: 'short', month: 'short', day: 'numeric',
+      hour: 'numeric', minute: '2-digit'
+    });
+    document.getElementById('asof-time').textContent = formatted;
+
+    document.getElementById('live-dot').classList.toggle('offline', !isLive);
+    document.getElementById('live-label').textContent = isLive ? 'Market Snapshot' : 'Market Snapshot (offline copy)';
+    document.getElementById('footer-note').textContent = isLive
+      ? "Data refreshes automatically each weekday morning & evening."
+      : "Couldn't load data.json — showing the last saved snapshot. This updates live once hosted on GitHub Pages.";
+
+    renderCards('indices-grid', data.indices);
+    renderCards('macro-grid', data.macro);
+    renderSectors(data.sectors);
+  }
+
+  fetch('./data.json', { cache: 'no-store' })
+    .then(r => { if (!r.ok) throw new Error('no data.json'); return r.json(); })
+    .then(data => render(data, true))
+    .catch(() => render(FALLBACK, false));
+</script>
+
+</body>
+</html>
