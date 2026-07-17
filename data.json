@@ -1,108 +1,108 @@
 {
-  "updated_at": "2026-07-17T00:15:44.225355Z",
+  "updated_at": "2026-07-17T16:37:17.210722Z",
   "theme": {
-    "title": "Rotation: Growth \u2192 Value & Defensives",
-    "summary": "Consumer Staples (+2.79%) and Health Care (+2.19%) led the market today, while Technology (-2.17%) and Communication Svcs (-0.46%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -0.79% versus +1.79% for defensives and +0.77% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. That shows up at the index level too: the blue-chip Dow gained -0.20% while the tech-heavy Nasdaq fell -1.47%, a wide enough gap to matter. Small caps bucked the broader trend, with the Russell 2000 up -0.06%, outperforming large caps. The VIX rose 6.76% to 16.73, pointing to a bit more caution creeping in beneath the surface. Gold slipped 1.30% to $3,988.30, crude oil was little changed at $78.88, and bitcoin slipped 0.59% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "title": "Mixed / Stock-Picker's Market",
+    "summary": "Energy (+0.88%) and Industrials (+0.56%) led the market today, while Communication Svcs (-1.16%) and Financials (-0.52%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged -0.47%, defensives -0.10%, and value/cyclicals +0.15% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 -0.64%, Dow -0.34%, Nasdaq -1.03% \u2014 without one clearly dominating. Small caps bucked the broader trend, with the Russell 2000 up -0.32%, outperforming large caps. The VIX rose 7.72% to 18.00, pointing to a bit more caution creeping in beneath the surface. Gold added 0.66% to $4,021.90, crude oil was little changed at $81.41, and bitcoin slipped 0.60% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
       "label": "S&P 500",
-      "value": "7,533.77",
-      "pct": -0.51
+      "value": "7,485.43",
+      "pct": -0.64
     },
     {
       "label": "Dow 30",
-      "value": "52,552.97",
-      "pct": -0.2
+      "value": "52,373.20",
+      "pct": -0.34
     },
     {
       "label": "Nasdaq Comp",
-      "value": "25,881.95",
-      "pct": -1.47
+      "value": "25,615.01",
+      "pct": -1.03
     },
     {
       "label": "Russell 2000",
-      "value": "2,974.57",
-      "pct": -0.06
+      "value": "2,964.43",
+      "pct": -0.32
     }
   ],
   "sectors": [
     {
-      "ticker": "XLP",
-      "name": "Consumer Staples",
-      "pct": 2.79
-    },
-    {
-      "ticker": "XLV",
-      "name": "Health Care",
-      "pct": 2.19
-    },
-    {
-      "ticker": "XLRE",
-      "name": "Real Estate",
-      "pct": 2.0
-    },
-    {
       "ticker": "XLE",
       "name": "Energy",
-      "pct": 0.87
-    },
-    {
-      "ticker": "XLB",
-      "name": "Materials",
-      "pct": 0.67
-    },
-    {
-      "ticker": "XLU",
-      "name": "Utilities",
-      "pct": 0.4
-    },
-    {
-      "ticker": "XLF",
-      "name": "Financials",
-      "pct": 0.27
-    },
-    {
-      "ticker": "XLY",
-      "name": "Consumer Discretionary",
-      "pct": 0.27
+      "pct": 0.88
     },
     {
       "ticker": "XLI",
       "name": "Industrials",
-      "pct": 0.03
+      "pct": 0.56
     },
     {
-      "ticker": "XLC",
-      "name": "Communication Svcs",
-      "pct": -0.46
+      "ticker": "XLV",
+      "name": "Health Care",
+      "pct": 0.1
+    },
+    {
+      "ticker": "XLRE",
+      "name": "Real Estate",
+      "pct": 0.07
     },
     {
       "ticker": "XLK",
       "name": "Technology",
-      "pct": -2.17
+      "pct": 0.01
+    },
+    {
+      "ticker": "XLU",
+      "name": "Utilities",
+      "pct": -0.1
+    },
+    {
+      "ticker": "XLB",
+      "name": "Materials",
+      "pct": -0.25
+    },
+    {
+      "ticker": "XLY",
+      "name": "Consumer Discretionary",
+      "pct": -0.27
+    },
+    {
+      "ticker": "XLP",
+      "name": "Consumer Staples",
+      "pct": -0.3
+    },
+    {
+      "ticker": "XLF",
+      "name": "Financials",
+      "pct": -0.52
+    },
+    {
+      "ticker": "XLC",
+      "name": "Communication Svcs",
+      "pct": -1.16
     }
   ],
   "macro": [
     {
       "label": "VIX",
-      "value": "16.73",
-      "pct": 6.76
+      "value": "18.00",
+      "pct": 7.72
     },
     {
       "label": "Gold (oz)",
-      "value": "$3,988.30",
-      "pct": -1.3
+      "value": "$4,021.90",
+      "pct": 0.66
     },
     {
       "label": "WTI Crude",
-      "value": "$78.88",
-      "pct": -0.85
+      "value": "$81.41",
+      "pct": 2.84
     },
     {
       "label": "Bitcoin",
-      "value": "$63,771.80",
-      "pct": -0.59
+      "value": "$63,384.32",
+      "pct": -0.6
     }
   ]
 }
