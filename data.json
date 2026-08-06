@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-05T22:07:14.504122Z",
+  "updated_at": "2026-08-06T13:54:09.719895Z",
   "theme": {
     "title": "Mixed / Stock-Picker's Market",
-    "summary": "Materials (+1.15%) and Health Care (+1.02%) led the market today, while Energy (-2.05%) and Utilities (-1.22%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged -0.39%, defensives -0.11%, and value/cyclicals -0.23% \u2014 more a stock-by-stock market than a single broad theme. That shows up at the index level too: the blue-chip Dow gained +0.49% while the tech-heavy Nasdaq fell -0.83%, a wide enough gap to matter. Small caps underperformed as well, with the Russell 2000 at -0.59%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX fell 4.18% to 15.81, which reads as an orderly rotation rather than panic-driven selling. Gold added 2.90% to $4,308.00, crude oil was little changed at $75.08, and bitcoin gained 0.93% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Materials (+1.15%) and Health Care (+1.02%) led the market today, while Energy (-2.05%) and Utilities (-1.22%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged -0.39%, defensives -0.11%, and value/cyclicals -0.23% \u2014 more a stock-by-stock market than a single broad theme. That shows up at the index level too: the blue-chip Dow gained +0.49% while the tech-heavy Nasdaq fell -0.83%, a wide enough gap to matter. Small caps underperformed as well, with the Russell 2000 at -0.59%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX rose 0.19% to 15.85, pointing to a bit more caution creeping in beneath the surface. Gold slipped 0.10% to $4,320.70, crude oil was little changed at $75.20, and bitcoin gained 0.29% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -86,23 +86,23 @@
   "macro": [
     {
       "label": "VIX",
-      "value": "15.81",
-      "pct": -4.18
+      "value": "15.85",
+      "pct": 0.19
     },
     {
       "label": "Gold (oz)",
-      "value": "$4,308.00",
-      "pct": 2.9
+      "value": "$4,320.70",
+      "pct": -0.1
     },
     {
       "label": "WTI Crude",
-      "value": "$75.08",
-      "pct": 0.67
+      "value": "$75.20",
+      "pct": 0.28
     },
     {
       "label": "Bitcoin",
-      "value": "$64,644.43",
-      "pct": 0.93
+      "value": "$64,786.20",
+      "pct": 0.29
     }
   ]
 }
