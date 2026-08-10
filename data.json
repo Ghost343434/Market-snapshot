@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-07T21:32:06.029284Z",
+  "updated_at": "2026-08-10T12:56:27.295271Z",
   "theme": {
-    "title": "Mixed / Stock-Picker's Market",
-    "summary": "Materials (+1.65%) and Consumer Discretionary (+1.32%) led the market today, while Energy (-1.37%) and Financials (-0.34%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged +0.76%, defensives +0.45%, and value/cyclicals +0.08% \u2014 more a stock-by-stock market than a single broad theme. That shows up at the index level too: the tech-heavy Nasdaq gained +1.30% while the blue-chip Dow lagged at +0.28%. Small caps bucked the broader trend, with the Russell 2000 up +1.10%, outperforming large caps. The VIX fell 1.59% to 14.90, which reads as an orderly rotation rather than panic-driven selling. Gold added 1.82% to $4,401.30, crude oil was little changed at $77.08, and bitcoin gained 1.11% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "title": "Quiet Session",
+    "summary": "Communication Svcs (+0.48%) and Consumer Discretionary (+0.30%) led the market today, while Financials (-0.41%) and Industrials (-0.37%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged +0.26%, defensives -0.12%, and value/cyclicals -0.20% \u2014 more a stock-by-stock market than a single broad theme. That shows up at the index level too: the tech-heavy Nasdaq gained +1.30% while the blue-chip Dow lagged at +0.28%. Small caps bucked the broader trend, with the Russell 2000 up +1.10%, outperforming large caps. The VIX rose 3.56% to 15.42, pointing to a bit more caution creeping in beneath the surface. Gold added 0.04% to $4,389.50, crude oil was little changed at $79.74, and bitcoin gained 0.02% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -28,44 +28,19 @@
   ],
   "sectors": [
     {
-      "ticker": "XLB",
-      "name": "Materials",
-      "pct": 1.65
+      "ticker": "XLC",
+      "name": "Communication Svcs",
+      "pct": 0.48
     },
     {
       "ticker": "XLY",
       "name": "Consumer Discretionary",
-      "pct": 1.32
-    },
-    {
-      "ticker": "XLK",
-      "name": "Technology",
-      "pct": 0.9
-    },
-    {
-      "ticker": "XLV",
-      "name": "Health Care",
-      "pct": 0.86
-    },
-    {
-      "ticker": "XLU",
-      "name": "Utilities",
-      "pct": 0.46
+      "pct": 0.3
     },
     {
       "ticker": "XLRE",
       "name": "Real Estate",
-      "pct": 0.38
-    },
-    {
-      "ticker": "XLI",
-      "name": "Industrials",
-      "pct": 0.08
-    },
-    {
-      "ticker": "XLC",
-      "name": "Communication Svcs",
-      "pct": 0.06
+      "pct": 0.04
     },
     {
       "ticker": "XLP",
@@ -73,36 +48,61 @@
       "pct": 0.02
     },
     {
-      "ticker": "XLF",
-      "name": "Financials",
-      "pct": -0.34
+      "ticker": "XLK",
+      "name": "Technology",
+      "pct": -0.01
+    },
+    {
+      "ticker": "XLB",
+      "name": "Materials",
+      "pct": -0.07
     },
     {
       "ticker": "XLE",
       "name": "Energy",
-      "pct": -1.37
+      "pct": -0.17
+    },
+    {
+      "ticker": "XLU",
+      "name": "Utilities",
+      "pct": -0.18
+    },
+    {
+      "ticker": "XLV",
+      "name": "Health Care",
+      "pct": -0.19
+    },
+    {
+      "ticker": "XLI",
+      "name": "Industrials",
+      "pct": -0.37
+    },
+    {
+      "ticker": "XLF",
+      "name": "Financials",
+      "pct": -0.41
     }
   ],
   "macro": [
     {
       "label": "VIX",
-      "value": "14.90",
-      "pct": -1.59
+      "value": "15.42",
+      "pct": 3.56
     },
     {
       "label": "Gold (oz)",
-      "value": "$4,401.30",
-      "pct": 1.82
+      "value": "$4,389.50",
+      "pct": 0.04
     },
     {
       "label": "WTI Crude",
-      "value": "$77.08",
-      "pct": -1.24
+      "value": "$79.74",
+      "pct": 1.18
     },
     {
       "label": "Bitcoin",
-      "value": "$64,978.27",
-      "pct": 1.11
+      "value": "$64,860.72",
+      "pct": 0.02
     }
   ]
 }
