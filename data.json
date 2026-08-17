@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-14T21:18:38.410325Z",
+  "updated_at": "2026-08-17T12:33:45.800299Z",
   "theme": {
-    "title": "Mixed / Stock-Picker's Market",
-    "summary": "Energy (+1.38%) and Utilities (+0.61%) led the market today, while Health Care (-0.82%) and Technology (-0.40%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged -0.11%, defensives -0.02%, and value/cyclicals +0.53% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 -0.17%, Dow -0.20%, Nasdaq -0.28% \u2014 without one clearly dominating. Small caps bucked the broader trend, with the Russell 2000 up +0.51%, outperforming large caps. The VIX fell 2.60% to 14.25, which reads as an orderly rotation rather than panic-driven selling. Gold added 1.20% to $4,432.00, crude oil was little changed at $82.40, and bitcoin slipped 0.92% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "title": "Quiet Session",
+    "summary": "Industrials (+0.11%) and Financials (+0.09%) led the market today, while Real Estate (-0.13%) and Consumer Staples (-0.12%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged +0.01%, defensives -0.05%, and value/cyclicals +0.02% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 -0.17%, Dow -0.20%, Nasdaq -0.28% \u2014 without one clearly dominating. Small caps bucked the broader trend, with the Russell 2000 up +0.51%, outperforming large caps. The VIX rose 4.77% to 14.93, pointing to a bit more caution creeping in beneath the surface. Gold slipped 0.05% to $4,451.40, crude oil was little changed at $82.35, and bitcoin gained 1.13% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -28,81 +28,81 @@
   ],
   "sectors": [
     {
-      "ticker": "XLE",
-      "name": "Energy",
-      "pct": 1.38
-    },
-    {
-      "ticker": "XLU",
-      "name": "Utilities",
-      "pct": 0.61
-    },
-    {
-      "ticker": "XLB",
-      "name": "Materials",
-      "pct": 0.54
-    },
-    {
-      "ticker": "XLRE",
-      "name": "Real Estate",
-      "pct": 0.5
-    },
-    {
-      "ticker": "XLC",
-      "name": "Communication Svcs",
-      "pct": 0.32
-    },
-    {
       "ticker": "XLI",
       "name": "Industrials",
-      "pct": 0.29
-    },
-    {
-      "ticker": "XLP",
-      "name": "Consumer Staples",
-      "pct": 0.15
+      "pct": 0.11
     },
     {
       "ticker": "XLF",
       "name": "Financials",
-      "pct": -0.07
+      "pct": 0.09
     },
     {
       "ticker": "XLY",
       "name": "Consumer Discretionary",
-      "pct": -0.26
+      "pct": 0.08
+    },
+    {
+      "ticker": "XLU",
+      "name": "Utilities",
+      "pct": 0.05
+    },
+    {
+      "ticker": "XLE",
+      "name": "Energy",
+      "pct": 0.02
+    },
+    {
+      "ticker": "XLC",
+      "name": "Communication Svcs",
+      "pct": -0.0
+    },
+    {
+      "ticker": "XLB",
+      "name": "Materials",
+      "pct": 0.0
     },
     {
       "ticker": "XLK",
       "name": "Technology",
-      "pct": -0.4
+      "pct": -0.05
     },
     {
       "ticker": "XLV",
       "name": "Health Care",
-      "pct": -0.82
+      "pct": -0.07
+    },
+    {
+      "ticker": "XLP",
+      "name": "Consumer Staples",
+      "pct": -0.12
+    },
+    {
+      "ticker": "XLRE",
+      "name": "Real Estate",
+      "pct": -0.13
     }
   ],
   "macro": [
     {
       "label": "VIX",
-      "value": "14.25",
-      "pct": -2.6
+      "value": "14.93",
+      "pct": 4.77
     },
     {
       "label": "Gold (oz)",
-      "value": "$4,432.00",
-      "pct": 1.2
+      "value": "$4,451.40",
+      "pct": -0.05
     },
     {
       "label": "WTI Crude",
-      "value": "$82.40",
-      "pct": 1.29
+      "value": "$82.35",
+      "pct": 0.13
     },
     {
       "label": "Bitcoin",
-      "value": "$62,844.04",
-      "pct": -0.92
+      "value": "$63,539.08",
+      "pct": 1.13
     }
   ]
 }
