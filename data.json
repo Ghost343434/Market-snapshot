@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-21T21:16:54.858862Z",
+  "updated_at": "2026-08-24T12:38:45.347295Z",
   "theme": {
-    "title": "Mixed / Stock-Picker's Market",
-    "summary": "Materials (+1.98%) and Health Care (+1.14%) led the market today, while Utilities (-2.53%) and Energy (-0.32%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged +0.64%, defensives -0.25%, and value/cyclicals +0.53% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 +0.43%, Dow +0.98%, Nasdaq +0.43% \u2014 without one clearly dominating. Small caps bucked the broader trend, with the Russell 2000 up +0.85%, outperforming large caps. The VIX fell 5.50% to 15.13, which reads as an orderly rotation rather than panic-driven selling. Gold added 1.54% to $4,661.60, crude oil was little changed at $86.64, and bitcoin gained 6.38% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "title": "Quiet Session",
+    "summary": "Energy (+0.02%) and Consumer Discretionary (-0.00%) led the market today, while Materials (-0.38%) and Industrials (-0.31%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged -0.15%, defensives -0.12%, and value/cyclicals -0.16% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 +0.43%, Dow +0.98%, Nasdaq +0.43% \u2014 without one clearly dominating. Small caps bucked the broader trend, with the Russell 2000 up +0.85%, outperforming large caps. The VIX rose 4.89% to 15.87, pointing to a bit more caution creeping in beneath the surface. Gold added 0.42% to $4,718.00, crude oil was little changed at $85.43, and bitcoin gained 1.11% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -28,81 +28,81 @@
   ],
   "sectors": [
     {
-      "ticker": "XLB",
-      "name": "Materials",
-      "pct": 1.98
-    },
-    {
-      "ticker": "XLV",
-      "name": "Health Care",
-      "pct": 1.14
+      "ticker": "XLE",
+      "name": "Energy",
+      "pct": 0.02
     },
     {
       "ticker": "XLY",
       "name": "Consumer Discretionary",
-      "pct": 0.87
-    },
-    {
-      "ticker": "XLF",
-      "name": "Financials",
-      "pct": 0.86
-    },
-    {
-      "ticker": "XLC",
-      "name": "Communication Svcs",
-      "pct": 0.81
+      "pct": -0.0
     },
     {
       "ticker": "XLP",
       "name": "Consumer Staples",
-      "pct": 0.64
+      "pct": -0.02
     },
     {
-      "ticker": "XLK",
-      "name": "Technology",
-      "pct": 0.24
-    },
-    {
-      "ticker": "XLI",
-      "name": "Industrials",
-      "pct": 0.1
+      "ticker": "XLF",
+      "name": "Financials",
+      "pct": -0.05
     },
     {
       "ticker": "XLRE",
       "name": "Real Estate",
-      "pct": 0.01
-    },
-    {
-      "ticker": "XLE",
-      "name": "Energy",
-      "pct": -0.32
+      "pct": -0.09
     },
     {
       "ticker": "XLU",
       "name": "Utilities",
-      "pct": -2.53
+      "pct": -0.14
+    },
+    {
+      "ticker": "XLV",
+      "name": "Health Care",
+      "pct": -0.19
+    },
+    {
+      "ticker": "XLC",
+      "name": "Communication Svcs",
+      "pct": -0.22
+    },
+    {
+      "ticker": "XLK",
+      "name": "Technology",
+      "pct": -0.24
+    },
+    {
+      "ticker": "XLI",
+      "name": "Industrials",
+      "pct": -0.31
+    },
+    {
+      "ticker": "XLB",
+      "name": "Materials",
+      "pct": -0.38
     }
   ],
   "macro": [
     {
       "label": "VIX",
-      "value": "15.13",
-      "pct": -5.5
+      "value": "15.87",
+      "pct": 4.89
     },
     {
       "label": "Gold (oz)",
-      "value": "$4,661.60",
-      "pct": 1.54
+      "value": "$4,718.00",
+      "pct": 0.42
     },
     {
       "label": "WTI Crude",
-      "value": "$86.64",
-      "pct": 0.21
+      "value": "$85.43",
+      "pct": -0.23
     },
     {
       "label": "Bitcoin",
-      "value": "$77,670.74",
-      "pct": 6.38
+      "value": "$78,589.90",
+      "pct": 1.11
     }
   ]
 }
