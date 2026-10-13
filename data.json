@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-12T20:48:25.173201Z",
+  "updated_at": "2026-10-13T02:20:25.503109Z",
   "theme": {
     "title": "Rotation: Growth \u2192 Value & Defensives",
-    "summary": "Energy (+1.25%) and Consumer Staples (+1.17%) led the market today, while Technology (-1.23%) and Consumer Discretionary (-0.51%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -0.26% versus +0.82% for defensives and +0.50% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. Major indices moved in a tighter band \u2014 S&P 500 -0.06%, Dow +0.38%, Nasdaq -0.44% \u2014 without one clearly dominating. Small caps underperformed as well, with the Russell 2000 at -0.45%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX rose 2.49% to 15.21, pointing to a bit more caution creeping in beneath the surface. Gold slipped 0.78% to $4,194.30, crude oil was little changed at $93.19, and bitcoin slipped 0.81% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Energy (+1.25%) and Consumer Staples (+1.17%) led the market today, while Technology (-1.23%) and Consumer Discretionary (-0.51%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -0.26% versus +0.82% for defensives and +0.50% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. Major indices moved in a tighter band \u2014 S&P 500 -0.06%, Dow +0.38%, Nasdaq -0.44% \u2014 without one clearly dominating. Small caps underperformed as well, with the Russell 2000 at -0.45%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX rose 2.49% to 15.21, pointing to a bit more caution creeping in beneath the surface. Gold slipped 0.84% to $4,191.80, crude oil was little changed at $92.60, and bitcoin gained 1.12% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -91,18 +91,18 @@
     },
     {
       "label": "Gold (oz)",
-      "value": "$4,194.30",
-      "pct": -0.78
+      "value": "$4,191.80",
+      "pct": -0.84
     },
     {
       "label": "WTI Crude",
-      "value": "$93.19",
-      "pct": 3.17
+      "value": "$92.60",
+      "pct": 2.51
     },
     {
       "label": "Bitcoin",
-      "value": "$82,998.17",
-      "pct": -0.81
+      "value": "$82,656.71",
+      "pct": 1.12
     }
   ]
 }
