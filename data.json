@@ -1,76 +1,76 @@
 {
-  "updated_at": "2026-10-19T18:14:29.144210Z",
+  "updated_at": "2026-10-20T00:03:16.194444Z",
   "theme": {
     "title": "Rotation: Value/Defensives \u2192 Growth",
-    "summary": "Consumer Discretionary (+1.62%) and Technology (+1.56%) led the market today, while Utilities (-1.82%) and Real Estate (-1.12%) brought up the rear. Growth sectors outpaced the rest, averaging +1.17% versus -0.78% for defensives and -0.28% for value, consistent with risk appetite favoring higher-beta names. That shows up at the index level too: the tech-heavy Nasdaq gained +1.24% while the blue-chip Dow lagged at +0.13%. Small caps underperformed as well, with the Russell 2000 at +0.26%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX fell 7.71% to 18.44, which reads as an orderly rotation rather than panic-driven selling. Gold slipped 0.85% to $4,165.30, crude oil was little changed at $99.38, and bitcoin slipped 0.08% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Consumer Discretionary (+1.68%) and Technology (+1.38%) led the market today, while Utilities (-2.11%) and Real Estate (-1.12%) brought up the rear. Growth sectors outpaced the rest, averaging +1.13% versus -1.08% for defensives and -0.46% for value, consistent with risk appetite favoring higher-beta names. That shows up at the index level too: the tech-heavy Nasdaq gained +1.11% while the blue-chip Dow lagged at -0.07%. Small caps moved roughly in line with the broader market, with the Russell 2000 at +0.25%. The VIX fell 7.71% to 18.44, which reads as an orderly rotation rather than panic-driven selling. Gold slipped 1.17% to $4,152.10, crude oil was little changed at $98.24, and bitcoin slipped 0.02% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
       "label": "S&P 500",
-      "value": "7,704.92",
-      "pct": 0.6
+      "value": "7,690.73",
+      "pct": 0.41
     },
     {
       "label": "Dow 30",
-      "value": "52,060.12",
-      "pct": 0.13
+      "value": "51,966.03",
+      "pct": -0.07
     },
     {
       "label": "Nasdaq Comp",
-      "value": "26,463.42",
-      "pct": 1.24
+      "value": "26,430.89",
+      "pct": 1.11
     },
     {
       "label": "Russell 2000",
-      "value": "2,728.91",
-      "pct": 0.26
+      "value": "2,728.30",
+      "pct": 0.25
     }
   ],
   "sectors": [
     {
       "ticker": "XLY",
       "name": "Consumer Discretionary",
-      "pct": 1.62
+      "pct": 1.68
     },
     {
       "ticker": "XLK",
       "name": "Technology",
-      "pct": 1.56
+      "pct": 1.38
     },
     {
       "ticker": "XLB",
       "name": "Materials",
-      "pct": 0.7
+      "pct": 0.57
     },
     {
       "ticker": "XLC",
       "name": "Communication Svcs",
-      "pct": 0.33
+      "pct": 0.32
     },
     {
       "ticker": "XLI",
       "name": "Industrials",
-      "pct": -0.05
+      "pct": -0.37
     },
     {
       "ticker": "XLP",
       "name": "Consumer Staples",
-      "pct": -0.19
+      "pct": -0.5
     },
     {
       "ticker": "XLV",
       "name": "Health Care",
-      "pct": -0.34
+      "pct": -0.64
     },
     {
       "ticker": "XLE",
       "name": "Energy",
-      "pct": -0.43
+      "pct": -0.66
     },
     {
       "ticker": "XLF",
       "name": "Financials",
-      "pct": -0.5
+      "pct": -0.72
     },
     {
       "ticker": "XLRE",
@@ -80,7 +80,7 @@
     {
       "ticker": "XLU",
       "name": "Utilities",
-      "pct": -1.82
+      "pct": -2.11
     }
   ],
   "macro": [
@@ -91,18 +91,18 @@
     },
     {
       "label": "Gold (oz)",
-      "value": "$4,165.30",
-      "pct": -0.85
+      "value": "$4,152.10",
+      "pct": -1.17
     },
     {
       "label": "WTI Crude",
-      "value": "$99.38",
-      "pct": 2.07
+      "value": "$98.24",
+      "pct": 0.9
     },
     {
       "label": "Bitcoin",
-      "value": "$81,943.97",
-      "pct": -0.08
+      "value": "$81,842.98",
+      "pct": -0.02
     }
   ]
 }
