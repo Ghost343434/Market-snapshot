@@ -1,108 +1,108 @@
 {
-  "updated_at": "2026-10-29T00:32:44.178425Z",
+  "updated_at": "2026-10-29T17:56:20.251034Z",
   "theme": {
     "title": "Mixed / Stock-Picker's Market",
-    "summary": "Technology (+0.74%) and Financials (+0.68%) led the market today, while Utilities (-0.79%) and Real Estate (-0.78%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged -0.01%, defensives -0.36%, and value/cyclicals +0.18% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 +0.27%, Dow +0.17%, Nasdaq +0.28% \u2014 without one clearly dominating. Small caps moved roughly in line with the broader market, with the Russell 2000 at +0.41%. The VIX fell 3.43% to 16.91, which reads as an orderly rotation rather than panic-driven selling. Gold slipped 0.04% to $4,054.80, crude oil was little changed at $102.17, and bitcoin slipped 0.01% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Real Estate (+1.74%) and Materials (+0.79%) led the market today, while Energy (-0.61%) and Technology (-0.32%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -0.05% versus +0.49% for defensives and +0.64% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. That shows up at the index level too: the blue-chip Dow gained -0.68% while the tech-heavy Nasdaq fell -1.72%, a wide enough gap to matter. Small caps bucked the broader trend, with the Russell 2000 up +0.90%, outperforming large caps. The VIX fell 1.66% to 16.61, which reads as an orderly rotation rather than panic-driven selling. Gold slipped 0.65% to $4,024.70, crude oil was little changed at $101.99, and bitcoin slipped 0.72% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
       "label": "S&P 500",
-      "value": "7,743.98",
-      "pct": 0.27
+      "value": "7,692.91",
+      "pct": -0.71
     },
     {
       "label": "Dow 30",
-      "value": "52,475.10",
-      "pct": 0.17
+      "value": "52,160.44",
+      "pct": -0.68
     },
     {
       "label": "Nasdaq Comp",
-      "value": "26,549.85",
-      "pct": 0.28
+      "value": "26,103.43",
+      "pct": -1.72
     },
     {
       "label": "Russell 2000",
-      "value": "2,830.51",
-      "pct": 0.41
+      "value": "2,855.56",
+      "pct": 0.9
     }
   ],
   "sectors": [
     {
-      "ticker": "XLK",
-      "name": "Technology",
-      "pct": 0.74
-    },
-    {
-      "ticker": "XLF",
-      "name": "Financials",
-      "pct": 0.68
-    },
-    {
-      "ticker": "XLI",
-      "name": "Industrials",
-      "pct": 0.58
-    },
-    {
-      "ticker": "XLE",
-      "name": "Energy",
-      "pct": 0.58
-    },
-    {
-      "ticker": "XLV",
-      "name": "Health Care",
-      "pct": 0.37
-    },
-    {
-      "ticker": "XLY",
-      "name": "Consumer Discretionary",
-      "pct": -0.1
+      "ticker": "XLRE",
+      "name": "Real Estate",
+      "pct": 1.74
     },
     {
       "ticker": "XLB",
       "name": "Materials",
-      "pct": -0.17
+      "pct": 0.79
     },
     {
-      "ticker": "XLP",
-      "name": "Consumer Staples",
-      "pct": -0.67
+      "ticker": "XLV",
+      "name": "Health Care",
+      "pct": 0.72
     },
     {
-      "ticker": "XLC",
-      "name": "Communication Svcs",
-      "pct": -0.68
-    },
-    {
-      "ticker": "XLRE",
-      "name": "Real Estate",
-      "pct": -0.78
+      "ticker": "XLF",
+      "name": "Financials",
+      "pct": 0.67
     },
     {
       "ticker": "XLU",
       "name": "Utilities",
-      "pct": -0.79
+      "pct": 0.6
+    },
+    {
+      "ticker": "XLI",
+      "name": "Industrials",
+      "pct": 0.59
+    },
+    {
+      "ticker": "XLY",
+      "name": "Consumer Discretionary",
+      "pct": 0.42
+    },
+    {
+      "ticker": "XLP",
+      "name": "Consumer Staples",
+      "pct": 0.15
+    },
+    {
+      "ticker": "XLC",
+      "name": "Communication Svcs",
+      "pct": -0.26
+    },
+    {
+      "ticker": "XLK",
+      "name": "Technology",
+      "pct": -0.32
+    },
+    {
+      "ticker": "XLE",
+      "name": "Energy",
+      "pct": -0.61
     }
   ],
   "macro": [
     {
       "label": "VIX",
-      "value": "16.91",
-      "pct": -3.43
+      "value": "16.61",
+      "pct": -1.66
     },
     {
       "label": "Gold (oz)",
-      "value": "$4,054.80",
-      "pct": -0.04
+      "value": "$4,024.70",
+      "pct": -0.65
     },
     {
       "label": "WTI Crude",
-      "value": "$102.17",
-      "pct": 0.82
+      "value": "$101.99",
+      "pct": 0.56
     },
     {
       "label": "Bitcoin",
-      "value": "$81,082.79",
-      "pct": -0.01
+      "value": "$80,661.30",
+      "pct": -0.72
     }
   ]
 }
