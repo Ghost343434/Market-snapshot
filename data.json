@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T21:18:21.558467Z",
+  "updated_at": "2026-11-03T02:44:09.558337Z",
   "theme": {
     "title": "Rotation: Growth \u2192 Value & Defensives",
-    "summary": "Materials (+2.04%) and Real Estate (+1.87%) led the market today, while Energy (-3.96%) and Technology (-3.28%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -0.63% versus +0.62% for defensives and +0.56% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. That shows up at the index level too: the blue-chip Dow gained +0.41% while the tech-heavy Nasdaq fell -1.09%, a wide enough gap to matter. Small caps bucked the broader trend, with the Russell 2000 up -0.22%, outperforming large caps. The VIX rose 9.83% to 21.35, pointing to a bit more caution creeping in beneath the surface. Gold added 1.16% to $3,955.30, crude oil was little changed at $95.99, and bitcoin slipped 1.86% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Materials (+2.04%) and Real Estate (+1.84%) led the market today, while Energy (-3.96%) and Technology (-3.29%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -0.64% versus +0.61% for defensives and +0.56% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. That shows up at the index level too: the blue-chip Dow gained +0.41% while the tech-heavy Nasdaq fell -1.09%, a wide enough gap to matter. Small caps bucked the broader trend, with the Russell 2000 up -0.22%, outperforming large caps. The VIX rose 8.80% to 21.15, pointing to a bit more caution creeping in beneath the surface. Gold added 1.15% to $3,954.90, crude oil was little changed at $96.69, and bitcoin slipped 0.04% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -17,12 +17,12 @@
     },
     {
       "label": "Nasdaq Comp",
-      "value": "25,164.32",
+      "value": "25,164.36",
       "pct": -1.09
     },
     {
       "label": "Russell 2000",
-      "value": "2,805.92",
+      "value": "2,805.88",
       "pct": -0.22
     }
   ],
@@ -35,12 +35,12 @@
     {
       "ticker": "XLRE",
       "name": "Real Estate",
-      "pct": 1.87
+      "pct": 1.84
     },
     {
       "ticker": "XLF",
       "name": "Financials",
-      "pct": 1.7
+      "pct": 1.73
     },
     {
       "ticker": "XLP",
@@ -70,12 +70,12 @@
     {
       "ticker": "XLV",
       "name": "Health Care",
-      "pct": -0.19
+      "pct": -0.22
     },
     {
       "ticker": "XLK",
       "name": "Technology",
-      "pct": -3.28
+      "pct": -3.29
     },
     {
       "ticker": "XLE",
@@ -86,23 +86,23 @@
   "macro": [
     {
       "label": "VIX",
-      "value": "21.35",
-      "pct": 9.83
+      "value": "21.15",
+      "pct": 8.8
     },
     {
       "label": "Gold (oz)",
-      "value": "$3,955.30",
-      "pct": 1.16
+      "value": "$3,954.90",
+      "pct": 1.15
     },
     {
       "label": "WTI Crude",
-      "value": "$95.99",
-      "pct": -4.75
+      "value": "$96.69",
+      "pct": -4.06
     },
     {
       "label": "Bitcoin",
-      "value": "$76,771.74",
-      "pct": -1.86
+      "value": "$76,766.22",
+      "pct": -0.04
     }
   ]
 }
