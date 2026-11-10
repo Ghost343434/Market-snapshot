@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T21:51:50.976117Z",
+  "updated_at": "2026-11-10T03:05:27.725420Z",
   "theme": {
     "title": "Rotation: Value/Defensives \u2192 Growth",
-    "summary": "Industrials (+3.62%) and Technology (+3.26%) led the market today, while Energy (+0.18%) and Real Estate (+0.89%) brought up the rear. Growth sectors outpaced the rest, averaging +2.87% versus +1.44% for defensives and +1.63% for value, consistent with risk appetite favoring higher-beta names. Major indices moved in a tighter band \u2014 S&P 500 +2.37%, Dow +2.18%, Nasdaq +2.77% \u2014 without one clearly dominating. Small caps bucked the broader trend, with the Russell 2000 up +3.17%, outperforming large caps. The VIX fell 22.28% to 19.92, which reads as an orderly rotation rather than panic-driven selling. Gold added 0.31% to $4,146.00, crude oil was little changed at $86.67, and bitcoin gained 0.22% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Industrials (+3.62%) and Technology (+3.26%) led the market today, while Energy (+0.18%) and Real Estate (+0.89%) brought up the rear. Growth sectors outpaced the rest, averaging +2.87% versus +1.44% for defensives and +1.63% for value, consistent with risk appetite favoring higher-beta names. Major indices moved in a tighter band \u2014 S&P 500 +2.37%, Dow +2.18%, Nasdaq +2.77% \u2014 without one clearly dominating. Small caps bucked the broader trend, with the Russell 2000 up +3.17%, outperforming large caps. The VIX fell 22.28% to 19.92, which reads as an orderly rotation rather than panic-driven selling. Gold slipped 0.31% to $4,120.40, crude oil was little changed at $85.92, and bitcoin slipped 0.53% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -91,18 +91,18 @@
     },
     {
       "label": "Gold (oz)",
-      "value": "$4,146.00",
-      "pct": 0.31
+      "value": "$4,120.40",
+      "pct": -0.31
     },
     {
       "label": "WTI Crude",
-      "value": "$86.67",
-      "pct": -5.08
+      "value": "$85.92",
+      "pct": -5.9
     },
     {
       "label": "Bitcoin",
-      "value": "$74,886.03",
-      "pct": 0.22
+      "value": "$74,639.99",
+      "pct": -0.53
     }
   ]
 }
