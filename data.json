@@ -1,108 +1,108 @@
 {
-  "updated_at": "2026-11-12T19:27:17.096145Z",
+  "updated_at": "2026-11-13T01:36:34.297574Z",
   "theme": {
     "title": "Mixed / Stock-Picker's Market",
-    "summary": "Energy (+1.73%) and Technology (+1.06%) led the market today, while Materials (-1.00%) and Industrials (-0.54%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged +0.05%, defensives -0.26%, and value/cyclicals -0.05% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 -0.11%, Dow +0.02%, Nasdaq -0.27% \u2014 without one clearly dominating. Small caps underperformed as well, with the Russell 2000 at -1.22%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX rose 4.00% to 18.18, pointing to a bit more caution creeping in beneath the surface. Gold slipped 2.43% to $3,883.80, crude oil was little changed at $88.51, and bitcoin slipped 3.29% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Energy (+1.29%) and Technology (+1.12%) led the market today, while Materials (-1.52%) and Communication Svcs (-0.96%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged -0.09%, defensives -0.70%, and value/cyclicals -0.48% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 -0.33%, Dow -0.34%, Nasdaq -0.39% \u2014 without one clearly dominating. Small caps underperformed as well, with the Russell 2000 at -1.65%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX rose 6.98% to 18.70, pointing to a bit more caution creeping in beneath the surface. Gold slipped 1.63% to $3,915.70, crude oil was little changed at $88.35, and bitcoin slipped 0.53% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
       "label": "S&P 500",
-      "value": "7,609.38",
-      "pct": -0.11
+      "value": "7,592.40",
+      "pct": -0.33
     },
     {
       "label": "Dow 30",
-      "value": "52,485.05",
-      "pct": 0.02
+      "value": "52,297.09",
+      "pct": -0.34
     },
     {
       "label": "Nasdaq Comp",
-      "value": "25,394.60",
-      "pct": -0.27
+      "value": "25,366.09",
+      "pct": -0.39
     },
     {
       "label": "Russell 2000",
-      "value": "2,811.23",
-      "pct": -1.22
+      "value": "2,799.06",
+      "pct": -1.65
     }
   ],
   "sectors": [
     {
       "ticker": "XLE",
       "name": "Energy",
-      "pct": 1.73
+      "pct": 1.29
     },
     {
       "ticker": "XLK",
       "name": "Technology",
-      "pct": 1.06
-    },
-    {
-      "ticker": "XLU",
-      "name": "Utilities",
-      "pct": 0.17
+      "pct": 1.12
     },
     {
       "ticker": "XLRE",
       "name": "Real Estate",
-      "pct": 0.1
+      "pct": -0.31
     },
     {
-      "ticker": "XLC",
-      "name": "Communication Svcs",
-      "pct": -0.42
-    },
-    {
-      "ticker": "XLP",
-      "name": "Consumer Staples",
-      "pct": -0.42
+      "ticker": "XLU",
+      "name": "Utilities",
+      "pct": -0.43
     },
     {
       "ticker": "XLY",
       "name": "Consumer Discretionary",
-      "pct": -0.49
+      "pct": -0.44
     },
     {
-      "ticker": "XLV",
-      "name": "Health Care",
-      "pct": -0.52
-    },
-    {
-      "ticker": "XLF",
-      "name": "Financials",
-      "pct": -0.52
+      "ticker": "XLP",
+      "name": "Consumer Staples",
+      "pct": -0.74
     },
     {
       "ticker": "XLI",
       "name": "Industrials",
-      "pct": -0.54
+      "pct": -0.9
+    },
+    {
+      "ticker": "XLV",
+      "name": "Health Care",
+      "pct": -0.93
+    },
+    {
+      "ticker": "XLF",
+      "name": "Financials",
+      "pct": -0.95
+    },
+    {
+      "ticker": "XLC",
+      "name": "Communication Svcs",
+      "pct": -0.96
     },
     {
       "ticker": "XLB",
       "name": "Materials",
-      "pct": -1.0
+      "pct": -1.52
     }
   ],
   "macro": [
     {
       "label": "VIX",
-      "value": "18.18",
-      "pct": 4.0
+      "value": "18.70",
+      "pct": 6.98
     },
     {
       "label": "Gold (oz)",
-      "value": "$3,883.80",
-      "pct": -2.43
+      "value": "$3,915.70",
+      "pct": -1.63
     },
     {
       "label": "WTI Crude",
-      "value": "$88.51",
-      "pct": 3.8
+      "value": "$88.35",
+      "pct": 3.61
     },
     {
       "label": "Bitcoin",
-      "value": "$71,495.94",
-      "pct": -3.29
+      "value": "$70,967.48",
+      "pct": -0.53
     }
   ]
 }
