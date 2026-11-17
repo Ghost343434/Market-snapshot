@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-16T21:33:19.380649Z",
+  "updated_at": "2026-11-17T03:20:15.530877Z",
   "theme": {
     "title": "Rotation: Growth \u2192 Value & Defensives",
-    "summary": "Utilities (+0.63%) and Materials (+0.59%) led the market today, while Technology (-2.39%) and Energy (-1.96%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -1.88% versus +0.24% for defensives and -0.59% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. That shows up at the index level too: the blue-chip Dow gained -1.40% while the tech-heavy Nasdaq fell -2.47%, a wide enough gap to matter. Small caps moved roughly in line with the broader market, with the Russell 2000 at -1.69%. The VIX rose 18.83% to 22.91, pointing to a bit more caution creeping in beneath the surface. Gold slipped 0.38% to $3,855.30, crude oil was little changed at $85.36, and bitcoin slipped 0.31% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Materials (+0.59%) and Utilities (+0.43%) led the market today, while Technology (-2.39%) and Energy (-1.96%) brought up the rear. That split lines up with a rotation out of growth: growth-oriented sectors averaged -1.88% versus +0.18% for defensives and -0.59% for value and cyclicals, suggesting money moved from high-multiple names into steadier, cash-generative businesses. That shows up at the index level too: the blue-chip Dow gained -1.40% while the tech-heavy Nasdaq fell -2.47%, a wide enough gap to matter. Small caps moved roughly in line with the broader market, with the Russell 2000 at -1.69%. The VIX rose 18.83% to 22.91, pointing to a bit more caution creeping in beneath the surface. Gold added 0.18% to $3,877.00, crude oil was little changed at $85.14, and bitcoin slipped 0.79% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -28,19 +28,19 @@
   ],
   "sectors": [
     {
-      "ticker": "XLU",
-      "name": "Utilities",
-      "pct": 0.63
-    },
-    {
       "ticker": "XLB",
       "name": "Materials",
       "pct": 0.59
     },
     {
+      "ticker": "XLU",
+      "name": "Utilities",
+      "pct": 0.43
+    },
+    {
       "ticker": "XLP",
       "name": "Consumer Staples",
-      "pct": 0.3
+      "pct": 0.33
     },
     {
       "ticker": "XLRE",
@@ -91,18 +91,18 @@
     },
     {
       "label": "Gold (oz)",
-      "value": "$3,855.30",
-      "pct": -0.38
+      "value": "$3,877.00",
+      "pct": 0.18
     },
     {
       "label": "WTI Crude",
-      "value": "$85.36",
-      "pct": -3.37
+      "value": "$85.14",
+      "pct": -3.62
     },
     {
       "label": "Bitcoin",
-      "value": "$65,115.58",
-      "pct": -0.31
+      "value": "$64,719.35",
+      "pct": -0.79
     }
   ]
 }
