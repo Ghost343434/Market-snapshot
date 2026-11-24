@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-23T23:16:07.260391Z",
+  "updated_at": "2026-11-24T05:05:33.836917Z",
   "theme": {
     "title": "Rotation: Value/Defensives \u2192 Growth",
-    "summary": "Technology (+7.20%) and Industrials (+2.95%) led the market today, while Energy (-1.33%) and Consumer Staples (-0.11%) brought up the rear. Growth sectors outpaced the rest, averaging +4.08% versus +0.82% for defensives and +1.18% for value, consistent with risk appetite favoring higher-beta names. That shows up at the index level too: the tech-heavy Nasdaq gained +6.35% while the blue-chip Dow lagged at +2.93%. Small caps underperformed as well, with the Russell 2000 at +3.38%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX fell 25.83% to 26.62, which reads as an orderly rotation rather than panic-driven selling. Gold added 0.80% to $3,636.90, crude oil was little changed at $80.15, and bitcoin gained 0.37% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Technology (+7.20%) and Industrials (+2.95%) led the market today, while Energy (-1.33%) and Consumer Staples (-0.11%) brought up the rear. Growth sectors outpaced the rest, averaging +4.08% versus +0.82% for defensives and +1.18% for value, consistent with risk appetite favoring higher-beta names. That shows up at the index level too: the tech-heavy Nasdaq gained +6.35% while the blue-chip Dow lagged at +2.93%. Small caps underperformed as well, with the Russell 2000 at +3.38%, hinting the move favored large, established balance sheets over smaller, more rate-sensitive companies. The VIX fell 25.83% to 26.62, which reads as an orderly rotation rather than panic-driven selling. Gold added 0.75% to $3,634.80, crude oil was little changed at $79.63, and bitcoin slipped 1.22% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -91,18 +91,18 @@
     },
     {
       "label": "Gold (oz)",
-      "value": "$3,636.90",
-      "pct": 0.8
+      "value": "$3,634.80",
+      "pct": 0.75
     },
     {
       "label": "WTI Crude",
-      "value": "$80.15",
-      "pct": -3.98
+      "value": "$79.63",
+      "pct": -4.6
     },
     {
       "label": "Bitcoin",
-      "value": "$61,387.13",
-      "pct": 0.37
+      "value": "$60,447.98",
+      "pct": -1.22
     }
   ]
 }
