@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-26T03:19:20.739854Z",
+  "updated_at": "2026-11-26T20:50:55.602149Z",
   "theme": {
     "title": "Mixed / Stock-Picker's Market",
-    "summary": "Materials (+2.30%) and Real Estate (+1.19%) led the market today, while Health Care (-0.50%) and Technology (-0.36%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged +0.19%, defensives +0.16%, and value/cyclicals +1.22% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 -0.27%, Dow +0.31%, Nasdaq -0.63% \u2014 without one clearly dominating. Small caps bucked the broader trend, with the Russell 2000 up +0.73%, outperforming large caps. The VIX rose 7.32% to 28.29, pointing to a bit more caution creeping in beneath the surface. Gold added 1.72% to $3,610.20, crude oil was little changed at $84.10, and bitcoin gained 0.53% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Materials (+2.30%) and Real Estate (+1.19%) led the market today, while Health Care (-0.50%) and Technology (-0.36%) brought up the rear. Performance didn't cluster cleanly by style \u2014 growth averaged +0.19%, defensives +0.16%, and value/cyclicals +1.22% \u2014 more a stock-by-stock market than a single broad theme. Major indices moved in a tighter band \u2014 S&P 500 -0.27%, Dow +0.31%, Nasdaq -0.63% \u2014 without one clearly dominating. Small caps bucked the broader trend, with the Russell 2000 up +0.73%, outperforming large caps. The VIX fell 5.37% to 26.80, which reads as an orderly rotation rather than panic-driven selling. Gold added 1.25% to $3,593.40, crude oil was little changed at $84.91, and bitcoin gained 0.52% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -86,23 +86,23 @@
   "macro": [
     {
       "label": "VIX",
-      "value": "28.29",
-      "pct": 7.32
+      "value": "26.80",
+      "pct": -5.37
     },
     {
       "label": "Gold (oz)",
-      "value": "$3,610.20",
-      "pct": 1.72
+      "value": "$3,593.40",
+      "pct": 1.25
     },
     {
       "label": "WTI Crude",
-      "value": "$84.10",
-      "pct": 4.17
+      "value": "$84.91",
+      "pct": 5.18
     },
     {
       "label": "Bitcoin",
-      "value": "$60,701.96",
-      "pct": 0.53
+      "value": "$60,696.41",
+      "pct": 0.52
     }
   ]
 }
