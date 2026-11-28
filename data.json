@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-27T20:35:58.844128Z",
+  "updated_at": "2026-11-28T03:01:08.304349Z",
   "theme": {
     "title": "Rotation: Value/Defensives \u2192 Growth",
-    "summary": "Technology (+2.66%) and Consumer Discretionary (+1.99%) led the market today, while Utilities (+0.07%) and Consumer Staples (+0.22%) brought up the rear. Growth sectors outpaced the rest, averaging +2.21% versus +0.18% for defensives and +1.20% for value, consistent with risk appetite favoring higher-beta names. That shows up at the index level too: the tech-heavy Nasdaq gained +2.33% while the blue-chip Dow lagged at +1.18%. Small caps moved roughly in line with the broader market, with the Russell 2000 at +1.73%. The VIX fell 11.16% to 23.81, which reads as an orderly rotation rather than panic-driven selling. Gold added 1.33% to $3,668.50, crude oil was little changed at $83.08, and bitcoin slipped 1.31% \u2014 cross-asset moves weren't all pointing the same direction as equities."
+    "summary": "Technology (+2.66%) and Consumer Discretionary (+1.99%) led the market today, while Utilities (+0.07%) and Consumer Staples (+0.22%) brought up the rear. Growth sectors outpaced the rest, averaging +2.21% versus +0.18% for defensives and +1.20% for value, consistent with risk appetite favoring higher-beta names. That shows up at the index level too: the tech-heavy Nasdaq gained +2.33% while the blue-chip Dow lagged at +1.18%. Small caps moved roughly in line with the broader market, with the Russell 2000 at +1.73%. The VIX fell 11.16% to 23.81, which reads as an orderly rotation rather than panic-driven selling. Gold added 1.33% to $3,668.50, crude oil was little changed at $83.08, and bitcoin gained 0.09% \u2014 cross-asset moves weren't all pointing the same direction as equities."
   },
   "indices": [
     {
@@ -101,8 +101,8 @@
     },
     {
       "label": "Bitcoin",
-      "value": "$59,704.29",
-      "pct": -1.31
+      "value": "$59,909.49",
+      "pct": 0.09
     }
   ]
 }
